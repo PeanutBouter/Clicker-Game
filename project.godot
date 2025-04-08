@@ -11,6 +11,12 @@ config_version=5
 [application]
 
 config/name="clicker"
-run/main_scene="res://Clicker.tscn"
+run/main_scene="res://scenes/clicker_prototype/clicker_prototype.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://scenes/": "red",
+"res://scripts/": "yellow"
+}
